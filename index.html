@@ -1,0 +1,45 @@
+<!DOCTYPE html">
+<html lang="pt-br">
+<head>
+	<title>CRUD</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="styles.css" />	
+	
+	<script src="myscript.js"></script>
+</head>
+
+<body>
+	<div class="all">
+		<div class="div-button">
+			<input type="button" class="btn-show-form" id="btnExibirFormulario" value="Novo cadastro" onclick="exibirFormulario()">
+		</div>
+		<div class="center-fixed" id="div-form">	
+			<form id="frmCadastro">
+				<label for="txtNome">Nome</label><br>
+				<input type="text" id="txtNome" placeholder="Nome"><br>
+				
+				<label for="dtpDataNascimento">Data de Nascimento</label><br>
+				<input type="date" id="dtpDataNascimento" value="1990-08-29" required><br>
+				
+				<label for="txtEmail">E-mail</label><br>
+				<input type="text" id="txtEmail" value="" required>
+				
+				<input class="btn-register" type="submit" name="" id="btnCadastrarSalvar" value="Cadastrar">
+			</form>
+		</div>
+		<table  class="table-users">
+			<h2 class="title-table">Usuários</h2>
+			<thead class="thead-table">
+				<tr class="tr-table">
+					<th class="th-table">Id</th>
+					<th class="th-table">Nome</th>
+					<th class="th-table">Nascimento</th>
+					<th class="th-table">E-mail</th>
+				</tr>
+			</thead>
+			<tbody id="tbodyResultados"></tbody>
+			<tfoot></tfoot>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+}
+
+.all {
+	display: table;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #DCDCDC;
+}
+
+.title {
+	text-align: center;
+}
+
+.div-button {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 50px 30px;
+}
+
+.btn-show-form {
+	width: 150px;
+	height: 35px;
+	background-color: #007FFF;
+	border: none;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+.center-fixed {
+	width: 500px;
+	height: 350px;
+	margin: 0 auto;
+	display: none;
+}
+
+.table-users {
+	width: 96%;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+.title-table {
+	margin: 10px 30px;
+	font-family: sans-serif;
+}
+
+.thead-table {
+	height: 5vh;
+	background-color: #474A51;
+	color: #FFFFFF
+}
+
+.tr-table {
+	background-color: #474A51;
+}
+
+.th-table {
+	border: none;
+	font-family: sans-serif;
+}
+
+.btn-edit {
+	width: 100px;
+	height: 35px;
+	background-color: #EEAD2D;
+	border: none;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+.btn-delete {
+	width: 100px;
+	height: 35px;
+	background-color: #FF0000;
+	border: none;
+	border-radius: 5px;
+	color: #FFFFFF;
+	margin-right: 5px;
+}
+
+.btn-register {
+	width: 100px;
+	height: 35px;
+	background-color: #008000;
+	border: none;
+	border-radius: 5px;
+	color: #FFFFFF;
+	margin-right: 5px;
+}
+
+form {
+	width: 260px;
+	height: auto;
+	margin: 0 auto auto auto;
+	padding: 20px;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+form label,
+form fieldset {
+	font: bold 18px calibri, Arial, Courier;
+}
+
+form input {
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	font: 15px arial, sans-serif;
+	margin-bottom: 12px;
+}
+
+form input:focus {
+	border: 3px solid #333;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+
+form input[type=text] {
+	width: 100%;
+	padding: 3px 5px;
+}
+
+form input[type=date] {
+	padding: 1px 5px;
+}
+
+form input[type=submit]:active {
+	font-weight: bold;
+}
+
+table tbody tr:hover {
+	background-color: lightgray;
+}
+
+table tbody td {
+	border: 1px dotted gray;
+	padding: 3px 6px;
+}
+
+/*classe utilizada no javascript*/
+.estadoAlteracao {
+	background-color: orange;
+}
